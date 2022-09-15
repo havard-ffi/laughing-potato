@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T09:03:45.757Z" agent="5.0 (Windows)" etag="KBoKC3D95hwOg13dKg2q" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T11:26:06.863Z" agent="5.0 (Windows)" etag="2MZYKj92DEVJvTXfL3pz" version="20.1.1" type="github">
   <diagram id="xWsc1oEBFCPtIXpwX8Yd" name="Page-1">
     <mxGraphModel dx="825" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZzU0KXcZSqg73Tme91w2-1" value="VBS4" style="whiteSpace=wrap;html=1;imageAspect=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="260" width="90" height="20" as="geometry" />
+          <mxGeometry x="190" y="220" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-2" value="&lt;div&gt;SimSDK Plugin&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Ar&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- BMS&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- UAV Control&lt;br&gt;- UGV Control&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;imageAspect=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="90" height="80" as="geometry" />
+          <mxGeometry x="190" y="240" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-5" value="BMS Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-7" value="&lt;div&gt;NORNE GUI&lt;/div&gt;&lt;div&gt;(UGV)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-8" value="MASIM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="220" width="120" height="30" as="geometry" />
+          <mxGeometry x="30" y="220" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-10" value="&lt;div&gt;STIG GUI&lt;/div&gt;&lt;div&gt;(BMS)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZzU0KXcZSqg73Tme91w2-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-5" target="ZzU0KXcZSqg73Tme91w2-10">
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-11" value="Websocket" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-5" target="ZzU0KXcZSqg73Tme91w2-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
             <mxPoint x="270" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzU0KXcZSqg73Tme91w2-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.472;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-2" target="ZzU0KXcZSqg73Tme91w2-5">
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-12" value="UDP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-2" target="ZzU0KXcZSqg73Tme91w2-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
-            <mxPoint x="270" y="140" as="targetPoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZzU0KXcZSqg73Tme91w2-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.212;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-5" target="ZzU0KXcZSqg73Tme91w2-7">
@@ -40,14 +40,39 @@
             <mxPoint x="270" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzU0KXcZSqg73Tme91w2-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-1" target="ZzU0KXcZSqg73Tme91w2-7">
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-18" value="Websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZzU0KXcZSqg73Tme91w2-14">
+          <mxGeometry x="0.1169" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-15" value="UDP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-1" target="ZzU0KXcZSqg73Tme91w2-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="190" as="sourcePoint" />
+            <mxPoint x="180" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-16" value="&lt;div&gt;- GUI&lt;/div&gt;&lt;div&gt;- UAV Swarm Simulator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-17" value="UDP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-16" target="ZzU0KXcZSqg73Tme91w2-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
             <mxPoint x="270" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzU0KXcZSqg73Tme91w2-16" value="&lt;div&gt;- GUI&lt;/div&gt;&lt;div&gt;- UAV Swarm Simulator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-20" value="UGV HAL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZzU0KXcZSqg73Tme91w2-20" target="ZzU0KXcZSqg73Tme91w2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZzU0KXcZSqg73Tme91w2-22" value="&lt;div&gt;???&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZzU0KXcZSqg73Tme91w2-21">
+          <mxGeometry x="0.0969" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
